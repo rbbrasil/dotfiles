@@ -1,8 +1,12 @@
 set background=dark
 set clipboard=unnamedplus
 set completeopt=noinsert,menuone,noselect
+
 set cursorline
-highlight CursorLine cterm=NONE ctermbg=236
+hi CursorLine cterm=NONE ctermbg=236
+hi CursorLineNr    term=bold cterm=bold ctermfg=012 gui=bold
+hi LineNr ctermfg=059
+
 set hidden
 set inccommand=split
 set mouse=a
