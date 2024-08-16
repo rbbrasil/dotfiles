@@ -1,0 +1,27 @@
+set background=dark
+set clipboard=unnamedplus
+set completeopt=noinsert,menuone,noselect
+set cursorline
+highlight CursorLine cterm=NONE ctermbg=236
+set hidden
+set inccommand=split
+set mouse=a
+set number
+set relativenumber
+set splitbelow splitright
+set title
+set ttimeoutlen=0
+set wildmenu
+
+" Tabs size
+set expandtab
+set shiftwidth=2
+set tabstop=2
+
+filetype plugin indent on
+syntax on
+
+set t_Co=256
+
+" Disable comment indent
+set nosmartindent cindent cinkeys-=0# indentkeys-=0#
