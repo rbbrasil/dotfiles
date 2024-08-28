@@ -28,4 +28,7 @@ syntax on
 set t_Co=256
 
 " Disable comment indent
-set nosmartindent cindent cinkeys-=0# indentkeys-=0#
+set nosmartindent
+set cindent
+set cinkeys-=0#
+set indentkeys-=0#
