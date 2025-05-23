@@ -32,3 +32,6 @@ set nosmartindent
 set cindent
 set cinkeys-=0#
 set indentkeys-=0#
+
+" Fixing the auto indent when commenting lines
+set nosmartindent cindent cinkeys-=0# indentkeys-=0#
